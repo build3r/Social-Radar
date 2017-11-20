@@ -123,8 +123,10 @@ public class MainActivity extends AppCompatActivity
                 if(e==null) {
                     for (ParseObject p : objects) {
                         ProfileVo profile = castToProfileVo(p);
-                        Log.d(Tag,profile.toString());
-                        setUser(profile,ThreadLocalRandom.current().nextFloat()*100);
+                        if(profile.getEmail().equalsIgnoreCase("shabaz1729@gmail.com")) {
+                            Log.d(Tag, profile.toString());
+                            setUser(profile, ThreadLocalRandom.current().nextFloat() * 100);
+                        }
                     }
                 }
                 else e.printStackTrace();
@@ -179,7 +181,7 @@ public class MainActivity extends AppCompatActivity
                     //EditText editText = (EditText)RangingActivity.this.findViewById(R.id.rangingText);
                     Beacon firstBeacon = beacons.iterator().next();
                     for(final Beacon b: beacons) {
-                        APIManager.newInstance().getProfileData(b.getId1().toString(),
+                        APIManager.newInstance().getProfileData(b.getId2().toString(),
                         new APIManager.Callback() {
                             @Override
                             public void success(Object obj) {
