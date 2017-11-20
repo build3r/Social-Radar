@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.builder.devconnect.ProfileUpdateActivity"
+    tools:showIn="@layout/activity_profile_update">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="LinkedIn"
+            android:layout_marginLeft="10dp"/>
+
+<android.support.v7.widget.AppCompatEditText
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7"
+    android:singleLine="true"
+    android:text="https://in.linkedin.com/in/shabazahmed"
+    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="GitHub"
+            android:layout_marginLeft="10dp"/>
+
+<android.support.v7.widget.AppCompatEditText
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7"
+    android:singleLine="true"
+    android:text="https://github.com/build3r"
+    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="Facebook"
+            android:layout_marginLeft="10dp"/>
+
+<android.support.v7.widget.AppCompatEditText
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7"
+    android:singleLine="true"
+    android:text="https://facebook.com/shabaz1993"
+    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="about.me"
+            android:layout_marginLeft="10dp"/>
+
+<android.support.v7.widget.AppCompatEditText
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7"
+    android:singleLine="true"
+    android:text="https://about.me/shabazahmed"
+    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="Twitter"
+            android:layout_marginLeft="10dp"/>
+
+<android.support.v7.widget.AppCompatEditText
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7"
+    android:singleLine="true"
+    android:text="https://twitter.com/bui1d3r"
+    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="Skills"
+            android:layout_marginLeft="10dp"/>
+
+<android.support.v7.widget.AppCompatEditText
+    android:layout_width="0dp"
+    android:layout_height="60dp"
+    android:layout_weight="0.7"
+    android:text="Hacker; Developer"
+    />
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Save"/>
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
